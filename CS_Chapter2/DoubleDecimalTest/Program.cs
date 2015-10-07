@@ -9,6 +9,10 @@ namespace DoubleDecimalTest
     {
         static void Main(string[] args)
         {
+            double someMoney = 34.95;
+            Console.WriteLine("The money is {0}", someMoney);
+            decimal price = 999999999999.999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999m;
+            Console.WriteLine(price);
         }
     }
 }
